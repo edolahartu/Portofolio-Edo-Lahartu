@@ -52,7 +52,7 @@ def main():
         run_ml_app()
 
     elif selected_menu == 'Image Generator':
-        st.markdown('<meta http-equiv="refresh" content="0; url=https://generateimages.streamlit.app//" />', unsafe_allow_html=True)
+        st.markdown('https://generateimages.streamlit.app')
 
 if __name__ == '__main__':
     main()
