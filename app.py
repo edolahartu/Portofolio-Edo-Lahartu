@@ -12,7 +12,7 @@ def main():
     st.sidebar.title("Navigation")
     selected_menu = st.sidebar.radio('Select Menu', ['Home', 'Promotion Evaluation', 'Hoax Detector', 'Customer Segmentor', 
                                                      'Stock Price Predictor', 'Voice Clonner', 'Chat WA Anonymizer', 
-                                                     'Shopee Machine Affiliator', 'ml_app'])
+                                                     'Shopee Machine Affiliator', 'ml_app', 'Image Generator'])
 
     if selected_menu == 'Home':
         st.subheader("PORTOFOLIO OF EDO LAHARTU")
@@ -50,6 +50,9 @@ def main():
 
     elif selected_menu == 'ml_app':
         run_ml_app()
+
+    elif selected_menu == 'Image Generator'
+        st.markdown('[Image Generator](https://generateimages.streamlit.app//)')
 
 if __name__ == '__main__':
     main()
